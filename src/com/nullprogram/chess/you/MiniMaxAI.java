@@ -16,13 +16,13 @@ public class MiniMaxAI implements Player {
 
     public MoveScore predictBestMove(int ply, int finalPly, Board board, Piece.Side side) {
         // If we are on the finalPly
-        // Return an evaluation of the board
+            // Return an evaluation of the board
         // else
-        // For each possible move for the current player
-        // Make the move
-        // Recursively call predictBestMove(...)
-        // Undo the move
-        // Return the best move found (for the current player).
+            // For each possible move for the current player
+                // Make the move
+                // Recursively call predictBestMove(...)
+                // Undo the move
+            // Return the best move found (for the current player).
 
         // Hints:
         // Be sure to reverse the score when you return the MoveScore in the 'else' statmente
