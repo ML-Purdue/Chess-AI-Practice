@@ -19,7 +19,7 @@ public class MiniMaxAI implements Player {
 
     public MoveScore predictBestMove(int ply, int finalPly, Board board, Piece.Side side) {
         if (ply == finalPly) {
-            return new MoveScore(Evaluation.evaluateBoard(board, side), null);
+            return new MoveScore(Evaluation.evaluateBoard(board, side), null).getInversedMoveScore();
         } else {
             MoveScore bestMove = new MoveScore(Double.NEGATIVE_INFINITY, null);
             for (Move move : board.allMoves(side, false)) {
