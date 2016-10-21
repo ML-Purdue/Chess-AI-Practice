@@ -10,8 +10,10 @@ You should switch driver and observer when you finish DFS and start BFS, to give
 
 You can read more about pair programming [here.](https://en.wikipedia.org/wiki/Pair_programming)
 
-## Graph Search Resource
-[Here](https://docs.google.com/presentation/d/1eASDi99BBHW2Rq1y1On0kcTI53h3Udsp7YOGrS35NVo/edit?usp=sharing) are the slides I used last week. They contain sudocode for implementing DFS and BFS, if you don't know where to start, it's here. 
+## Slides
+Here are the slides I used. They contain sudocode, if you don't know where to start, it's here. 
+
+[MiniMax](https://docs.google.com/presentation/d/1eASDi99BBHW2Rq1y1On0kcTI53h3Udsp7YOGrS35NVo/edit?usp=sharing)
 
 ## Installing
 **To get this on your computer:**
@@ -34,8 +36,16 @@ When you run the program, you can specify a white player and a black player. At 
 
 There are several AI's already in the program, you can run yours against theirs to see how good it is.
 
-## Your task - Week 1
-Your task is to complete the MiniMax algorithm in MiniMaxAI.java class in the 'you' package.
+## Your task
+
+###Week 1
+Your task is to complete the MiniMax algorithm in MiniMaxAI.java in the 'you' package.
+
+###Week 2
+Your task is to complete the Alpha Beta Pruning algroithm in AlphaBetaPruningAI.java in the 'you' package.
+
+###Extra Task
+If you have extra time in either week 1 or week 2, try to make improvements to the Evaluation function. If you don't know where to begin, [here](https://chessprogramming.wikispaces.com/Evaluation) are some ideas.
 ## The API
 ####All of the classes you need to worry about are in the 'you' package.
 
