@@ -13,7 +13,7 @@ public class Evaluation {
     /**
      * Given a state of the board, evaluate the board with respect to the given side.
      */
-    private static double evaluateBoard(Board board, Piece.Side side) {
+    public static double evaluateBoard(Board board, Piece.Side side) {
         if (values == null)
             values = setUpValues();
 

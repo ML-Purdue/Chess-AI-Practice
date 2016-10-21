@@ -21,4 +21,8 @@ public class MoveScore {
     public Move getMove() {
         return move;
     }
+
+    public MoveScore getInversedMoveScore() {
+        return new MoveScore(score * -1, move);
+    }
 }
