@@ -13,7 +13,7 @@ You can read more about pair programming [here.](https://en.wikipedia.org/wiki/P
 ## Slides
 Here are the slides I used. They contain sudocode, if you don't know where to start, it's here. 
 
-[MiniMax](https://docs.google.com/presentation/d/1eASDi99BBHW2Rq1y1On0kcTI53h3Udsp7YOGrS35NVo/edit?usp=sharing)
+[MiniMax](https://docs.google.com/presentation/d/1rytUj8KX6VS1dtYSCM9JOWBLQWFK-GF5yfmocGmXNT0/edit?usp=sharing)
 
 ## Installing
 **To get this on your computer:**
