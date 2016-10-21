@@ -14,8 +14,7 @@ public class MiniMaxAI implements Player {
 
     @Override
     public Move takeTurn(Board board, Piece.Side side) {
-        Move move = predictBestMove(0, 3, board, side).getMove();
-        return move;
+        return predictBestMove(0, 3, board, side).getMove();
     }
 
     public MoveScore predictBestMove(int ply, int finalPly, Board board, Piece.Side side) {
@@ -29,7 +28,6 @@ public class MiniMaxAI implements Player {
                 MoveScore newMoveScore = predictBestMove(ply+1, finalPly, board, opponent);
                 if (newMoveScore.getScore() > bestMove.getScore()) {
                     bestMove = new MoveScore(newMoveScore.getScore(), move);
-                    System.out.println(bestMove.getScore() + " " + move);
                 }
                 board.undo();
             }
