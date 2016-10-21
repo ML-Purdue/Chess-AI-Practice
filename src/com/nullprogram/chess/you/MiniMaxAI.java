@@ -25,7 +25,7 @@ public class MiniMaxAI implements Player {
             // Return the best move found (for the current player).
 
         // Hints:
-        // Be sure to reverse the score when you return the MoveScore in the 'else' statmente
+        // Be sure to reverse the score when you return the MoveScore
         // Be sure to increment the ply and switch sides when you recursively call predictBestMove(...)
         // Add the code to keep track of the best MoveScore within the foreach loop.
 
