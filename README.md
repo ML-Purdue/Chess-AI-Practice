@@ -35,12 +35,12 @@ When you run the program, you can specify a white player and a black player. At 
 There are several AI's already in the program, you can run yours against theirs to see how good it is.
 
 ## Your task - Week 1
-Your task is to complete the MiniMax algorithm in MiniMaxAI.java class in the 'you' package.aaaAA
+Your task is to complete the MiniMax algorithm in MiniMaxAI.java class in the 'you' package.
 ## The API
+####All of the classes you need to worry about are in the 'you' package.
 ####The recursive function you implement will have four parameters:
 * What ply (number of moves into the future) you're currently on.
 * What ply you should finish on
 * An object representing the board
 * An enum value representing the currenty player to-move
-
-a
+####To evaluate 
