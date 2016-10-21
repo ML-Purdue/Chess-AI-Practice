@@ -38,9 +38,25 @@ There are several AI's already in the program, you can run yours against theirs 
 Your task is to complete the MiniMax algorithm in MiniMaxAI.java class in the 'you' package.
 ## The API
 ####All of the classes you need to worry about are in the 'you' package.
+
 ####The recursive function you implement will have four parameters:
 * What ply (number of moves into the future) you're currently on.
 * What ply you should finish on
 * An object representing the board
 * An enum value representing the currenty player to-move
-####To evaluate 
+
+####To evaluate a board:
+* Evaluation.evaluateBoard(board, side)
+
+####To get a list of all possible moves:
+* board.allMoves(side, false)
+
+####Perform a move on the board:
+* board.move(move)
+
+####Undo a move on the board:
+* board.undo()
+
+####MoveScore may also be useful as an object to return. It contains two fields:
+* The score for if you take that move
+* The move itself
