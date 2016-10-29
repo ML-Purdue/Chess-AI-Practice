@@ -61,8 +61,8 @@
       <file leaf-file-name="AlphaBetaPruningAI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/nullprogram/chess/you/AlphaBetaPruningAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="495">
+              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -801,7 +801,7 @@
       <workItem from="1476985411820" duration="2122000" />
       <workItem from="1477002917558" duration="2668000" />
       <workItem from="1477059472979" duration="4906000" />
-      <workItem from="1477757847189" duration="754000" />
+      <workItem from="1477757847189" duration="1030000" />
     </task>
     <task id="LOCAL-00001" summary="Indented sudo code">
       <created>1477003063545</created>
@@ -817,11 +817,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477062361891</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented solutions for alpha beta">
+      <created>1477758622920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1477758622920</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21526000" />
+    <option name="totallyTimeSpent" value="21802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="23" width="960" height="1173" extended-state="0" />
@@ -868,7 +875,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Indented sudo code" />
     <MESSAGE value="Implemented solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented solutions" />
+    <MESSAGE value="Implemented solutions for alpha beta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented solutions for alpha beta" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1300,8 +1308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nullprogram/chess/you/AlphaBetaPruningAI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="495">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

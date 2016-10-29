@@ -29,7 +29,7 @@ public class AlphaBetaPruningAI implements Player {
                 board.undo();
                 alpha = Math.max(alpha, newMoveScore.getScore());
                 if (beta <= alpha) {
-                    return bestMove.getInversedMoveScore();
+                    return new MoveScore(-beta, null);
                 }
                 if (newMoveScore.getScore() > bestMove.getScore()) {
                     bestMove = new MoveScore(newMoveScore.getScore(), move);
